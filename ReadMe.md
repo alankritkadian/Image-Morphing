@@ -43,3 +43,5 @@ The morphing algorithm works as follows:
 - Warp the source image into the target image using OpenCV's `warpAffine` function
 
 The `morph_points` function computes the corresponding points on the target triangle, and the `warp_images` function warps the source image into the target image using the computed warp matrix.
+
+![RESULTS](https://github.com/alankritkadian/Image-Morphing/blob/master/result.gif)
